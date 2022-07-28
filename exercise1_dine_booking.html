@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+            fieldset{
+                margin-left:350px;
+                margin-right:350px;
+                         
+            }
+        </style>
+    </head>
+    <body align="center">
+        <fieldset>
+            <p align="center">Dine Booking</p>
+        <label>Visitor Name:</label>
+        <input type="text" maxlength="20" autofocus><br>
+        <label>Number of Members:</label>
+        <input type="number" maxlength="2"><br>
+        <label>Contact No:</label>
+        <input type="number"><br>
+        <label>Email:</label>
+        <input type="email"><br>
+        <label>Type of Food:</label>
+        <input type="checkbox" value="South Indian" checked required>South Indian
+        <input type="checkbox" value="North Indian">North Indian
+        <input type="checkbox" value="Chinese">Chinese
+        <input type="checkbox" value="Western">Western<br>
+        <label>Room Status:</label>
+        <input type="radio" value="AC" name="room" checked required>AC
+        <input type="radio" value="Non-AC" name="room">Non-AC <br>
+        <label>Venue Preference:</label>
+        <select>
+            <option value=" ">--SELECT--</option>        
+            <option value="Arena">Arena</option>
+            <option value="Fiesta">Fiesta</option>
+            <option value="Vista">Vista</option>
+            <option value="Mytri">Mytri</option>
+            <option value="Magna">Magna</option>
+            <option value="Oasis">Oasis</option>
+            <option value="Amoeba" disabled>Amoeba</option>
+        </select><br><br>
+        <input type="button" value="Book" >&nbsp;&nbsp;
+        <input type="button" value="Reset">
+        </fieldset>
+    </body>
+</html>
